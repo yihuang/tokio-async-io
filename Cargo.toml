@@ -3,6 +3,14 @@ name = "tokio-async-io"
 version = "0.1.0"
 authors = ["yihuang <yi.codeplayer@gmail.com>"]
 edition = "2018"
+license = "Apache-2.0"
+description = "Port of the `smol::Async` to tokio 0.2"
+homepage = "https://github.com/yihuang/tokio-async-io"
+repository = "https://github.com/yihuang/tokio-async-io.git"
+documentation = "https://docs.rs/tokio-async-io"
+keywords = ["async", "await", "future", "io", "networking"]
+categories = ["asynchronous", "concurrency", "network-programming"]
+readme = "README.md"
 
 [dependencies]
 tokio = { version = "0.2", features = ["io-driver"] }
